@@ -34,7 +34,7 @@ lowf = KelvinToFahrenheit(json["main"]["temp_max"])
 puts "Temperature (F°) #{tempf}° (hi: #{highf}/lo: #{lowf})"
 puts "Temperature (C°) #{tempc}° (hi: #{highc}/lo: #{lowc})"
 puts ""
-puts "Description: json['weather'].first['description']" #Narrative gets returned as an array
+puts "Description: #{json['weather'].first['description']}" #Narrative gets returned as an array
 puts "Wind: #{json['wind']['speed']} mph"
 puts "Cloudiness: #{json['clouds']['all']}%"
 
