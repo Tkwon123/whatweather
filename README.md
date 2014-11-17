@@ -12,7 +12,7 @@ cd whatweather.git
 ruby weather.rb [city],[state/country]
 ```
 
-###Step 2: Walk outside and confirm
+###Step 2: Walk outside and enjoy the day!
 
 ```
 sudo poweroff
